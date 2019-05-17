@@ -30,8 +30,9 @@ document.addEventListener('click', function (event) {
          getPage("maa");
        break;
 
-       case "personnel_list":
+       case "personel_list":
        console.log("Personel list clicked");
+       getPage("plist");
        break;
 
    

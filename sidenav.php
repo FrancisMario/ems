@@ -43,7 +43,7 @@ $dashboard = '<li>
 </li>';
 
 $personel_settings = '<li>
-<a href="#" id="personnel_list"><i class="fa fa-sitemap"></i> Personel<span class="fa arrow"></span></a>
+<a href="#" ><i class="fa fa-sitemap"></i> Personel<span class="fa arrow"></span></a>
 <!-- <ul class="nav nav-second-level">
     <li>
         <a class="active-menu " id="personnel_list" href="#"> Personel List</a>
@@ -98,7 +98,7 @@ $rents = ' <li>
 </li>';
 
 $personel = '<li>
-<a href="#" id="personel" ><i class="fa fa-sitemap"></i> Personel<span class="fa arrow"></span></a>
+<a href="#" class="a" id="personel_list" ><i class="fa fa-sitemap"></i> Personel<span class="fa arrow"></span></a>
 <!-- <ul class="nav nav-second-level">
     <li>
         <a class="a" id="personnel_list" href="#"> Personel List</a>
