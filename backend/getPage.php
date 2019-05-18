@@ -279,6 +279,12 @@ switch ($req) {
             $list = new rental_list();
             echo $list->getResponse().$GLOBALS['rent_modals'];
             break;
+
+            case 'plist':
+            include 'list_personel.php';
+            $list = new personel_list();
+            echo $list->getResponse();
+            break;
     
     default:
        echo 404;

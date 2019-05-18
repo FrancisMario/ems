@@ -2,7 +2,7 @@
 session_start();
  if (isset($_SESSION['access_level'])) {
 }else {
- header("Location: index.html");
+//  header("Location: index.html");
 echo "alert('".$_SESSION['access_level']."');";
 }
  ?>
